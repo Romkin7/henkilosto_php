@@ -20,11 +20,9 @@
       <form class="form-signin" action="henkilonLisays.php" method="POST">
 
         <h1 class="h3 mb-3 font-weight-normal">Lisää henkilö</h1>
-        <label for="inputHenkilonumero" class="sr-only">Henkilönumero</label>
-        <input name="henkilonumero" type="text" id="inputText" class="form-control" placeholder="Henkilonumero" required autofocus>
 
         <label for="inputEtunimi" class="sr-only">Etunimi</label>
-        <input name="etunumi" type="text" id="inputText" class="form-control" placeholder="Etunimi" required>
+        <input name="etunumi" type="text" id="inputText" class="form-control" placeholder="Etunimi" required autofocus>
 
         <label for="inputSukunimi" class="sr-only">Sukunimi</label>
         <input name="sukunimi" type="text" id="inputText" class="form-control" placeholder="Sukunimi" required>

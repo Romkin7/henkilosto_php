@@ -3,7 +3,6 @@
 include "Henkilo.php";
 $henkilo = new Henkilo();
 // Asetetaan lomakkeelta tulleet tiedot muuttujiin
-$henkilo->setHenkilonumero($_POST['henkilonumero']);
 $henkilo->setEtunimi($_POST['etunumi']);
 $henkilo->setSukunimi($_POST['sukunimi']);
 $henkilo->setOsasto($_POST['osasto']);
